@@ -40,7 +40,7 @@ Frontier自体は独立した製品として2026年2月5日にOpenAIから正式
 
 ソフトバンクグループはこの長期記憶の仕組みについて**特許を取得済み**と発言しており、
 「企業を理解するAI」というメッセージングは2025年2月の初回発表時点から一貫して
-強調されています。発言の詳細・タイムラインは [08-understanding-the-enterprise.md](08-understanding-the-enterprise.md) を参照。
+強調されています。発言の詳細・タイムラインは [08-understanding-the-enterprise.md](../narrative/01-understanding-the-enterprise.md) を参照。
 
 ## 2.3 自律型AIエージェント群の連携
 

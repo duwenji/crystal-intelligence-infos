@@ -36,14 +36,14 @@
 
 といった経路で技術仕様を確認できます。
 
-Crystal Intelligence の場合、[07-open-questions.md](07-open-questions.md) で触れる通り、
+Crystal Intelligence の場合、[07-open-questions.md](../reference/03-open-questions.md) で触れる通り、
 これらに相当する**開発者向けの公開情報が存在しません**。これは、Crystal Intelligence が
 「不特定多数の開発者が自由に呼び出すAPI」ではなく、「特定の企業向けに個別設計・個別導入される
 サービス」であることの裏返しです。
 
 そのため本教材では、情報源を「プレスリリース（事実の一次情報）」と
 「Tech Blog/Insights（アーキテクチャの解説）」に区別しながら、体系的に整理していきます。
-詳細は [05-key-sources.md](05-key-sources.md) を参照してください。
+詳細は [05-key-sources.md](../reference/01-key-sources.md) を参照してください。
 
 ## 1.4 全体像の図解
 
@@ -60,4 +60,4 @@ flowchart TB
 ```
 
 次章では、この図の各要素（基盤モデル、RAG/長期記憶、マルチエージェント、FDE）を
-分解して詳しく見ていきます。→ [02-technical-architecture.md](02-technical-architecture.md)
+分解して詳しく見ていきます。→ [02-technical-architecture.md](02-architecture.md)

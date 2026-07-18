@@ -36,10 +36,10 @@ OpenAI公式・複数の技術解説記事を横断すると、Frontierは大き
   参照する仕組みとされている。エージェントごとに個別のデータパイプラインを持つのではなく、
   「情報がどう流れるか」「意思決定がどこで行われるか」「何が重要な成果指標か」について
   組織横断で統一された理解を共有できる、と説明されている
-  → Crystal Intelligence側で語られる「長期記憶」（[02-technical-architecture.md](02-technical-architecture.md) 2.2節）は、
+  → Crystal Intelligence側で語られる「長期記憶」（[02-technical-architecture.md](02-architecture.md) 2.2節）は、
     このBusiness Context機能を土台にしていると考えられる。Task Memory／Organizational Memory／
     Learning Loopといった内部構造や、メタデータ形式に関する非公開領域については
-    [04-long-term-memory-deep-dive.md](04-long-term-memory-deep-dive.md) で詳しく扱う
+    [04-long-term-memory-deep-dive.md](04-long-term-memory.md) で詳しく扱う
 
 ### (2) Agent Execution（エージェント実行）
 
@@ -51,7 +51,7 @@ OpenAI公式・複数の技術解説記事を横断すると、Frontierは大き
 - 実行環境として、**ローカル環境・企業のクラウドインフラ・OpenAIがホストするランタイム**の
   3種類にまたがって動作できるとされ、既存の業務フローを根本から作り変えなくても
   導入できることが特徴として挙げられている
-  → Crystal Intelligence側の「自律型AIエージェント群の連携」（[02-technical-architecture.md](02-technical-architecture.md) 2.3節）は、
+  → Crystal Intelligence側の「自律型AIエージェント群の連携」（[02-technical-architecture.md](02-architecture.md) 2.3節）は、
     この実行エンジンの上に構築されるアプリケーション層と位置付けられる
 
 ### (3) Evaluation and Optimization（評価・最適化）
@@ -61,7 +61,7 @@ OpenAI公式・複数の技術解説記事を横断すると、Frontierは大き
 - この評価ループを通じて、エージェントは経験を重ねるごとに改善され、
   時間の経過とともに一貫して有用な成果を出し続けられるように設計されている
 - Crystal Intelligence側で言及される「Learning Loop」（人間のフィードバックに基づく
-  継続的な振る舞いの調整、[06-glossary.md](06-glossary.md)参照）は、この機能領域に対応すると考えられる
+  継続的な振る舞いの調整、[06-glossary.md](../reference/02-glossary.md)参照）は、この機能領域に対応すると考えられる
 
 ### (4) Security & Governance（セキュリティ・ガバナンス）
 
@@ -116,7 +116,7 @@ Frontierは単体のAPIやアプリではなく基盤プラットフォームで
 **導入支援の枠組み**: OpenAI側には **Enterprise Frontier Program** という導入支援プログラムが
 存在し、"The OpenAI Deployment Company" 所属のFDE（Forward Deployed Engineer）がチームと
 ペアを組み、アーキテクチャ設計・ガバナンスの運用実装・本番運用までを伴走支援するとされている。
-→ Crystal Intelligence側で語られるFDEによる伴走型支援（3.6節の表、[05-key-sources.md](05-key-sources.md)参照）は、
+→ Crystal Intelligence側で語られるFDEによる伴走型支援（3.6節の表、[05-key-sources.md](../reference/01-key-sources.md)参照）は、
   この「Enterprise Frontier Program」の枠組みが日本市場向けに展開されたもの、または
   それに準じる支援体制と考えられる（※公式に明言された対応関係ではなく、教材側の推測）
 
@@ -143,7 +143,7 @@ Frontierは単体のAPIやアプリではなく基盤プラットフォームで
 | 位置付け | 汎用エンタープライズAIエージェント基盤 | Frontierを土台にした日本企業向けパッケージソリューション |
 | 対象市場 | グローバル（米国Fortune 500企業から展開） | 日本国内企業 |
 | 提供内容 | Business Context / Agent Execution / Evaluation and Optimization / Security & Governance | 上記に加え、業務プロセスに合わせたエージェントライブラリ、実装・運用支援 |
-| 導入支援 | Enterprise Frontier Programを通じた、一般的なエンタープライズ導入支援（3.4節参照） | FDE（Forward Deployed Engineer）による伴走型支援（[05-key-sources.md](05-key-sources.md)参照） |
+| 導入支援 | Enterprise Frontier Programを通じた、一般的なエンタープライズ導入支援（3.4節参照） | FDE（Forward Deployed Engineer）による伴走型支援（[05-key-sources.md](../reference/01-key-sources.md)参照） |
 
 **まとめると**: Frontierは「土台となる基盤製品」、Crystal Intelligenceは
 「その基盤の上に、日本企業向けの実装・運用支援・業務特化エージェントを組み合わせた
@@ -170,9 +170,9 @@ Frontierは単体のAPIやアプリではなく基盤プラットフォームで
 > 最新の記載内容を確認してください。
 
 > **関連**: Frontierに相当するAnthropic陣営のプラットフォーム（Managed Agents）との比較は
-> [09-anthropic-comparison.md](09-anthropic-comparison.md) を参照してください。
+> [09-anthropic-comparison.md](../appendix/01-anthropic-comparison.md) を参照してください。
 
 ---
 
 次は、Frontierの記憶機構（Business Context）についてさらに深掘りします。
-→ [04-long-term-memory-deep-dive.md](04-long-term-memory-deep-dive.md)
+→ [04-long-term-memory-deep-dive.md](04-long-term-memory.md)
