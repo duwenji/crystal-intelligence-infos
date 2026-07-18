@@ -169,6 +169,9 @@ Frontierは単体のAPIやアプリではなく基盤プラットフォームで
 > 間接引用を統合したものです。一次情報を直接確認したい場合は、必ずURLに自身でアクセスし、
 > 最新の記載内容を確認してください。
 
+> **関連**: Frontierに相当するAnthropic陣営のプラットフォーム（Managed Agents）との比較は
+> [09-anthropic-comparison.md](09-anthropic-comparison.md) を参照してください。
+
 ---
 
 次は、Frontierの記憶機構（Business Context）についてさらに深掘りします。
