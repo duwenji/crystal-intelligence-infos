@@ -1,4 +1,4 @@
-# 6. 用語集
+# 2. 用語集
 
 Crystal Intelligence を理解する上で登場する主要な用語を整理します。
 各用語について「Crystal Intelligenceの文脈での意味」と「一般的な技術用語としての意味」を
@@ -136,7 +136,7 @@ flowchart LR
     style BOUNDARY fill:#fff3cd,stroke:#b8860b,stroke-width:2px
 ```
 
-- **本教材内での使用箇所**: [09-anthropic-comparison.md](../appendix/01-anthropic-comparison.md) 9.3.3節で、
+- **本教材内での使用箇所**: [01-anthropic-comparison.md](../appendix/01-anthropic-comparison.md) 1.3.3節で、
   Anthropic Managed Agentsのサンドボックス（コンテナ）境界から外部サービスへリクエストが
   出ていく瞬間（egress）に、Anthropic側のプロキシが実際の認証情報を注入する仕組みを説明する際に
   用いている。「サンドボックス内部には認証情報を渡さず、境界を越える瞬間にのみ実値と結合する」

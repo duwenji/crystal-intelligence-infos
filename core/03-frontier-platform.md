@@ -170,7 +170,7 @@ Frontierは単体のAPIやアプリではなく基盤プラットフォームで
 > 最新の記載内容を確認してください。
 
 > **関連**: Frontierに相当するAnthropic陣営のプラットフォーム（Managed Agents）との比較は
-> [09-anthropic-comparison.md](../appendix/01-anthropic-comparison.md) を参照してください。
+> [01-anthropic-comparison.md](../appendix/01-anthropic-comparison.md) を参照してください。
 
 ---
 
