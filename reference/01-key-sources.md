@@ -2,7 +2,7 @@
 
 技術的な内容を深掘りする際は、必ずどの情報源に基づく記述かを意識してください。
 以下、情報源ごとに「何が書かれているか」「どう読むべきか」を整理します。
-Frontier自体の一次情報については [03-frontier-platform.md](03-frontier-platform.md) の
+Frontier自体の一次情報については [03-frontier-platform.md](../core/03-frontier-platform.md) の
 「情報源」節にまとめているため、本章ではCrystal Intelligence関連の情報源を中心に扱います。
 
 ## 5.1 SB OAI Japan 公式プレスリリース（一次情報）
@@ -69,8 +69,8 @@ Frontier自体の一次情報については [03-frontier-platform.md](03-fronti
 | SB OAIプレスリリース(PDF/英語版) | 一次・公式 | 高 | 事実確認、仕様の根拠 |
 | OpenAI公式Frontier発表 | 一次・公式 | 高 | Frontier自体の機能・アーキテクチャ確認 |
 | ソフトバンク Insights | 二次・準公式 | 中〜高 | アーキテクチャ理解、ユースケース把握 |
-| データ管理系の技術ブログ（Atlan等） | 三次・専門家分析 | 中 | Business Contextの技術的限界を把握（[04-long-term-memory-deep-dive.md](04-long-term-memory-deep-dive.md)参照） |
+| データ管理系の技術ブログ（Atlan等） | 三次・専門家分析 | 中 | Business Contextの技術的限界を把握（[04-long-term-memory-deep-dive.md](../core/04-long-term-memory.md)参照） |
 | SNS（X）言及 | 三次・非公式 | 低〜中 | 話題性・文脈の補足のみ |
 
 次は用語集で、本教材内に登場する専門用語を整理します。
-→ [06-glossary.md](06-glossary.md)
+→ [06-glossary.md](02-glossary.md)
